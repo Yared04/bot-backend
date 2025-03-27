@@ -66,7 +66,7 @@ async def post_event(
                 Button.url('Add to Calendar 📆', calendar_url),
             ]
         else:
-            None
+            button = None
         
         # If no files are uploaded, send the event as a message
         if len(files) == 0:
