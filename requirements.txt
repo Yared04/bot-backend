@@ -1,5 +1,6 @@
-Flask==3.1.0
-flask-cors==5.0.
-pyTelegramBotAPI==4.26.0
+fastapi==0.115.12
+uvicorn==0.34.0
+Telethon==1.39.0
 python-dotenv==1.1.0
 gunicorn==20.1.0
+python_multipart==0.0.20
