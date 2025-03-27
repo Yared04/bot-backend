@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 clients = {
-    "client_1": {"bot_token": CLIENT_1_BOT_TOKEN, "channel_id": CLIENT_1_CHANNEL_ID , "web_app": CLIENT_1_WEB_APP},
+    "create_post_linkup_bot": {"bot_token": CLIENT_1_BOT_TOKEN, "channel_id": CLIENT_1_CHANNEL_ID , "web_app": CLIENT_1_WEB_APP},
 }
 
 bot = TelegramClient("session", API_ID, API_HASH)
@@ -116,4 +116,4 @@ async def post_event(
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="127.0.0.1", port=5000, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=2000, reload=True)
