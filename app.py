@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 clients = {
-    "create_post_linkup_bot": {"bot_token": CLIENT_1_BOT_TOKEN, "channel_id": CLIENT_1_CHANNEL_ID , "web_app": CLIENT_1_WEB_APP},
+    "366965858": {"bot_token": CLIENT_1_BOT_TOKEN, "channel_id": CLIENT_1_CHANNEL_ID , "web_app": CLIENT_1_WEB_APP},
 }
 
 bot = TelegramClient("session", API_ID, API_HASH)
